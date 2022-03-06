@@ -144,7 +144,7 @@ export default function App() {
                         width: 70,
                         height: 70,
                         bottom: 0,
-                        borderRadius: 50,
+                        borderRadius: '50%',
                         backgroundColor: '#fff'
                       }}
                     />
