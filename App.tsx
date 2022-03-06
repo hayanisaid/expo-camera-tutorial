@@ -89,7 +89,7 @@ export default function App() {
                     onPress={__handleFlashMode}
                     style={{
                       backgroundColor: flashMode === 'off' ? '#000' : '#fff',
-                      borderRadius: '50%',
+                      borderRadius: 50,
                       height: 25,
                       width: 25
                     }}
@@ -106,7 +106,7 @@ export default function App() {
                     onPress={__switchCamera}
                     style={{
                       marginTop: 20,
-                      borderRadius: '50%',
+                      borderRadius: 50,
                       height: 25,
                       width: 25
                     }}
