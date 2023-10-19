@@ -11,7 +11,7 @@ export default function App() {
   const [flashMode, setFlashMode] = React.useState('off')
 
   const __startCamera = async () => {
-    const {status} = await Camera.requestPermissionsAsync()
+    const {status} = await Camera.requestCameraPermissionsAsync()
     console.log(status)
     if (status === 'granted') {
       setStartCamera(true)
